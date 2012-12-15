@@ -1,0 +1,273 @@
+/* ---------------------------------------------------------------- */
+/* GLOBAL
+/* ---------------------------------------------------------------- */
+html {
+  font-size: 100%;
+}
+
+body {
+  background: #5D6F85 url(../img/bg.jpg) repeat fixed;
+  font-size: 0.8125em;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  padding: 70px 0;
+  margin: 0;
+  color: #7D868F;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  color: #4D565F;
+  font-size: 26px;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+section h1,
+section h2 {
+  padding-top: 15px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+h3 span {
+  position: absolute;
+  right: 0;
+  top: -3px;
+  background-color: #eee;
+  font-size: 13px;
+  padding: 0 5px;
+  margin-left: 10px;
+  border: 1px solid #e5e5e5;
+  line-height: 1.5;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+a {
+  color: #4F779F;
+  text-decoration: none;
+  border-bottom: 1px dotted #9FCBFF;
+}
+
+a span {
+  display: none;
+}
+
+address {
+  font-style: normal;
+}
+
+p, ul {
+  margin: 0 0 20px;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+dl {
+  float: left;
+  margin: 10px 90px 20px 0;
+}
+
+dl + dl {
+  margin-right: 0;
+}
+
+dt, dd {
+  float: left;
+  margin: 0 0 0.5384em 0;
+  padding: 4px 0;
+  line-height: 1;
+}
+
+dt {
+  clear: both;
+  width: 13.3846em;
+  background-color: #eee;
+  margin-right: 20px;
+  padding-right: 8px;
+  padding-left: 8px;
+  border: 1px solid #e5e5e5;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+dd {
+  float: none !ie;
+}
+
+section,
+header + blockquote {
+  border-top: 1px solid #eee;
+  display: block;
+  padding: 25px 0 20px;
+  zoom: 1;
+}
+
+header + blockquote {
+  padding-top: 40px;
+}
+
+.print-break {
+  page-break-before: always;
+}
+
+/* ---------------------------------------------------------------- */
+/* CV
+/* ---------------------------------------------------------------- */
+#cv {
+  margin: 0 auto;
+  width: 700px;
+  padding: 40px;
+  text-align: left;
+  background-color: #fff;
+  border-top: 15px solid #B3CEEF;
+  border-bottom: 15px solid #B3CEEF;
+}
+
+/* ---------------------------------------------------------------- */
+/* HEADER
+/* ---------------------------------------------------------------- */
+header {
+  background-color: #f7f7f7;
+  display: block;
+  margin: -39px -80px 0 0;
+  position: relative;
+  left: -40px;
+  padding: 40px 0;
+  border-bottom: 1px solid #eee;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  zoom: 1;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+header figure {
+  padding: 10px;
+  background-color:  #fff;
+  border: 1px solid #eee;
+  float: left;
+  margin: 5px 40px 0 40px;
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+header figure img {
+  vertical-align: bottom;
+}
+
+header p {
+  margin: 3px 0 20px;
+}
+
+header dl {
+  margin: 0;
+}
+
+#find-me {
+  margin-right: 30px;
+}
+
+#find-me dt {
+  width: 4.6153em;
+}
+
+#personal dt {
+  width: 6.5384em;
+}
+
+#print {
+  background: url(../img/print.gif) no-repeat;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: none;
+  width: 16px;
+  height: 16px;
+  border: 0;
+  text-indent: -9999em;
+  overflow: hidden;
+}
+
+.js #print {
+  display: block;
+}
+
+/* ---------------------------------------------------------------- */
+/* INTRO BLOCKQUOTE
+/* ---------------------------------------------------------------- */
+header + blockquote {
+  border-top: 0;
+  margin: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  background: url(../img/quotemarks-bottom.png) no-repeat right bottom;
+}
+
+header + blockquote p:first-child {
+  background: url(../img/quotemarks-top.png) no-repeat;
+  padding: 50px 40px 0 40px;
+  position: relative;
+  left: -40px;
+  margin: -40px -80px 20px 0;
+}
+
+header + blockquote p {
+  font-size: 15px;
+  line-height: 26px;
+  font-style: italic;
+  color: #99A4AF;
+}
+
+/* ---------------------------------------------------------------- */
+/* CSS3 UI
+/* ---------------------------------------------------------------- */
+#cv,
+dt,
+h3 span {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#cv {
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* ---------------------------------------------------------------- */
+/* CLEARFIX
+/* ---------------------------------------------------------------- */
+header:after,
+section:after,
+dl:after {
+  content: ".";
+  clear: both;
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}

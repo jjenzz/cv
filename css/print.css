@@ -1,0 +1,75 @@
+/* ---------------------------------------------------------------- */
+/* GLOBAL
+/* ---------------------------------------------------------------- */
+body {
+color: #666;
+background-image: none;
+background-color: #fff;
+font-size: 10px;
+line-height: 17px;
+padding: 30px;}
+
+h1, h2 {
+color: #333;}
+
+a {
+color: #7D868F;
+border-bottom: 0;}
+
+a span {
+display: inline;}
+
+header + blockquote p {
+color: #666;
+font-size: 12px;
+line-height: 18px;}
+
+header {
+background-color: #fff;
+margin: 0;
+left: 0;
+padding-top: 0;
+padding-left: 0;
+padding-right: 0;}
+
+header figure {
+padding: 10px;
+background-color:  #fff;
+border: 1px solid #eee;
+float: left;
+margin-right: 40px;
+margin-bottom: 10px;
+-moz-box-shadow: 0 0 0;
+-webkit-box-shadow: 0 0 0;
+box-shadow: 0 0 0;
+display: none;}
+
+dt,
+h3 span {
+text-shadow: none;}
+
+/* ---------------------------------------------------------------- */
+/* CV
+/* ---------------------------------------------------------------- */
+#cv {
+width: auto;
+border: 0;
+-moz-box-shadow: 0 0 0;
+-webkit-box-shadow: 0 0 0;
+box-shadow: 0 0 0;
+margin: 0;
+padding: 0;}
+
+#find-me {
+width: 300px;
+margin-right: 0;}
+
+#personal {
+width: 200px;}
+
+#find-me dt {
+width: 6.1538em;}
+
+.js #print {
+display: none;}
+}
