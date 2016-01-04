@@ -2,12 +2,11 @@
 /* GLOBAL
 /* ---------------------------------------------------------------- */
 html {
-  font-size: 100%;
+  font-size: 13px;
 }
 
 body {
   background: #5D6F85 url(../img/bg.jpg) repeat fixed;
-  font-size: 0.8125em;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
   text-align: center;
@@ -256,6 +255,29 @@ h3 span {
   -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* ---------------------------------------------------------------- */
+/* SKILLS
+/* ---------------------------------------------------------------- */
+.skills {
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 0;
+}
+
+.skills__item {
+  font-size: 12px;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  padding: 4px 8px;
+  line-height: 1;
+  background-color: #eee;
+  border: 1px solid #e5e5e5;
+  text-shadow: 1px 1px 0 #fff;
 }
 
 /* ---------------------------------------------------------------- */
