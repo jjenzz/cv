@@ -16,7 +16,7 @@ a {
 color: #7D868F;
 border-bottom: 0;}
 
-a:after {
+a[data-print]:after {
 content: ": " attr(data-print);}
 
 header + blockquote p {
@@ -72,4 +72,3 @@ width: 6.1538em;}
 
 .js #print {
 display: none;}
-}
